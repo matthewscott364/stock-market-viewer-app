@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 #Page configuration
-st.set_page_config(page_title='Stock Market Data Viewer', layout='wide', initial_sidebar_state='expanded')
+st.set_page_config(page_title='Stock Market Data Viewer', layout='wide', initial_sidebar_state='expanded', page_icon=':chart_with_upwards_trend:')
 
 #Load dataset
 df = pd.read_csv('random_stock_market_dataset.csv')
